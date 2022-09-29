@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="HOME"/>
+    <item
+        android:id="@+id/firstsegmemt"
+        android:title="FIRST FRAGMENT"/>
+    <item
+        android:id="@+id/secondsegment"
+
+        android:title="SECOND FRAGMENT"/>
+    <item
+        android:id="@+id/thirdsegment"
+
+        android:title="THIRD FRAGMENT"/>
+    <item
+        android:id="@+id/fourthsegment"
+        android:title="FOURTH FRAGMENT"/>
+
+    <group android:id="@+id/gpr2">
+        <item android:title="Activity 2"
+            android:id="@+id/btAct2"/>
+    </group>
+</menu>
